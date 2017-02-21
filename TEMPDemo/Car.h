@@ -11,5 +11,6 @@
 @interface Car : NSObject<NSMutableCopying, NSCopying>
 @property (nonatomic, assign) NSInteger price;
 @property (nonatomic, strong) NSString *name;
+@property (nonatomic, assign) BOOL useFlag;
 - (void)descripetion;
 @end
