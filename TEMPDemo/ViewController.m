@@ -93,20 +93,20 @@ typedef void(^MakeB)(int count);
     NSLog(@"array2:%@",array2);
     
     
-    Car *car1 = [Car new];
-    car1.price = 100;
-    car1.name = @"奇瑞";
-    [car1 descripetion];
-    
-    Car *car2 = [Car new];
-    car2.price = 200;
-    car2.name = @"BMW";
-    car2.location = @"Germany";
-    [car2 descripetion];
-    
-    Car *car3 = [car1 copy];
-    Car *car4 = [car1 mutableCopy];
-    
+//    Car *car1 = [Car new];
+//    car1.price = 100;
+//    car1.name = @"奇瑞";
+//    [car1 descripetion];
+//    
+//    Car *car2 = [Car new];
+//    car2.price = 200;
+//    car2.name = @"BMW";
+//    car2.location = @"Germany";
+//    [car2 descripetion];
+//    
+//    Car *car3 = [car1 copy];
+//    Car *car4 = [car1 mutableCopy];
+//    
     
 
     
