@@ -40,7 +40,7 @@
     if ([self location]) {
         NSLog(@"[Car]:[name:%@]:[Price:%@]:[Location:%@]", _name, @(_price), [self location]);
     } else {
-        NSLog(@"[Car]:[name:%@]:[Price:%@]", _name, @(_price));
+        NSLog(@"[Car]:[name:%@]:[Price:%@] ", _name, @(_price));
     }
 }
 @end
