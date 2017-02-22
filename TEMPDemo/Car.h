@@ -12,5 +12,6 @@
 @property (nonatomic, assign) NSInteger price;
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, assign) BOOL useFlag;
+@property (nonatomic, strong) NSString *makeName;
 - (void)descripetion;
 @end
